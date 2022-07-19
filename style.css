@@ -22,7 +22,7 @@ button {
 }
 
 .marg {
-    margin: 0px 10vw;
+    margin: 0px 15vw;
 }
 
 header {
@@ -88,7 +88,40 @@ header {
 
 }
 
+.info {
+    background-color: #F9FAF8;
+    text-align: center;
+    padding: 64px 0px; 
+}
 
+.info h3 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    padding: 0;
+    margin-top: 0;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+.card-view {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+}
+
+.card-shape {
+    width: 150px;
+    height: 150px;
+    border: #3882F6 4px solid;
+    border-radius: 10px;
+}
 
 .header-background {
     background-color: #1F2937;
